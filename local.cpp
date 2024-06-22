@@ -1,5 +1,8 @@
+#include <iostream>
 #include "local.hpp"
-
+local::local(mapa& m) {
+    _mapa = m;
+}
 void local::hacer_pedido(){
     pedido pedido1(3,23);
     prioridad = pedido1.get_prioridad_pedido();

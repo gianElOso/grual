@@ -17,6 +17,7 @@ class local{
         std::string nombre;
         size_t prioridad;
     public:
+        local(mapa& m);
         void hacer_pedido();
         
 };

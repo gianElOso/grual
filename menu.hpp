@@ -8,13 +8,11 @@
 #include <stddef.h>
 class pedido;
 class local;
-
+class mapa;
 class menu
 {
 private:
-    local local1;
     mapa _mapa;
-
 public:
    void crear_local();
 };
